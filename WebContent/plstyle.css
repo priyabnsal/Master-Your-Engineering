@@ -1,0 +1,148 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+}
+#contact{
+    background-image: url(img/stack.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+@media screen and (max-width: 500px) {
+    .navbar a {
+    float: none;
+    display: block;
+    }
+    }
+    
+    .contact-info .fab{
+    margin:10px;
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 20px;
+    }
+    .navbar-brand .priy{
+    color: black;
+    font-weight: bold;
+    /* color: #e74c3c; */
+    }
+    .navbar-brand .priy:hover{
+    color: #FF0000;
+    /* color: #e74c3c; */
+    }
+    .nav-link .priya{
+    color: black;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-style: normal;
+    }
+    .nav-link .priya:hover{
+    color: #FF0000;
+    /* color:  #000080; */
+    }
+    .navbar-nav li a
+    {
+    float: right;
+    text-align: left;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; // remove the gap so it doesn't close
+     }
+    
+    /* -------------------------------footer */
+    .context-dark, .bg-gray-dark, .bg-primary {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    
+    .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+        color: #ffffff;
+    }
+    .nav-list li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .nav-list li a:hover:before {
+        margin-left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    ul, ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .social-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 23px;
+        font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .social-container .col {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .nav-list li a:before {
+        content: "\f14f";
+        font: 400 21px/1 "Material Design Icons";
+        color: #4d6de6;
+        display: inline-block;
+        vertical-align: baseline;
+        margin-left: -28px;
+        margin-right: 7px;
+        opacity: 0;
+        visibility: hidden;
+        transition: .22s ease;
+    }
+    #service
+    {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+    }
+    #service .image-text .imagetext{
+    /* color:white;
+    position:absolute;
+    top:40%;
+    width:90%;
+    font-family:'Raleway', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    tex
+    text-align:center;
+    position: absolute; */
+    top: 45%;
+    text-align: center;
+    position: absolute;
+    width:90%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    }
+    #service img:hover{
+    
+    box-shadow: 0 2px 20px #333;
+    }
+    #footer ul.quick-links li a i{
+    margin-right: 5px;
+    margin-bottom: 15px;
+    }
+    #footer ul.quick-links li:hover a i {
+        font-weight: 700;
+    }
+    
